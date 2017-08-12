@@ -1,6 +1,5 @@
 CFLAGS := $(CFLAGS) -Wall -O2 -mtune=native -g -std=gnu11
 LFLAGS := -lpcap
-INC    := -I. $(INC)
 DEFINES:= $(DEFINES)
 CC     := gcc
 BINARY := udpreplay
